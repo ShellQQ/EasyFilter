@@ -1,0 +1,20 @@
+[
+    {
+        "filter": "CIBokehBlur",
+        "describe": "Smooths an image using a disc-shaped convolution kernel.",
+        "parameters":
+            {
+                "key": "inputImage",
+"type": "CIImage",
+"defaultValue": ""
+            }
+
+
+    }
+]
+
+FilterAttributeAndKey(filter: "", key: "", type: ),
+FilterAttributeAndKey(filter: "CIBokehBlur", key: "inputRadius", type: "NSNumber", value: 20.0, min: 0.0, max: 500.0),
+FilterAttributeAndKey(filter: "CIBokehBlur", key: "inputRingAmount", type: "NSNumber", value: 0.0, min: 0.0, max: 1.0),
+FilterAttributeAndKey(filter: "CIBokehBlur", key: "inputRingSize", type: "NSNumber", value: 0.1, min: 0.0, max: 0.2),
+FilterAttributeAndKey(filter: "CIBokehBlur", key: "inputSoftness", type: "NSNumber", value: 1.0, min: 0.0, max: 10.0)]
